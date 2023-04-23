@@ -61,3 +61,7 @@ gem 'image_processing', '~> 1.2'
 gem 'activestorage-validator'
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg'
+end
